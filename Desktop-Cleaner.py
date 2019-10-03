@@ -56,6 +56,7 @@ class MyHandler(FileSystemEventHandler):
                     os.rename(src, new_name)
                 # except Exception:
                 #     print(filename)
+                #Add the folder path & also create all the folders
 
 extensions_folders = {
 #No name
