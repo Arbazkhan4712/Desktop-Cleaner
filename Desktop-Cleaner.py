@@ -10,7 +10,7 @@ class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):
         for filename in os.listdir(folder_to_track):
             i = 1
-            if filename != 'kalle':
+            if filename != 'AK':
                 # try:
                     new_name = filename
                     extension = 'noname'
